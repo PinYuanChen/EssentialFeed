@@ -2,3 +2,5 @@ EssentialFeed.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plis
 *.xcuserstate
 *.xcworkspacedata
 EssentialFeed.xcodeproj/xcuserdata/patrick.xcuserdatad/xcschemes/xcschememanagement.plist
+EssentialFeedTests/.DS_Store
+.DS_Store
