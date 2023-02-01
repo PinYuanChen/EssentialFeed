@@ -3,7 +3,7 @@
 //
 
 import XCTest
-@testable import EssentialFeed
+import EssentialFeed
 
 class RemoteFeedLoaderTests: XCTestCase {
     
