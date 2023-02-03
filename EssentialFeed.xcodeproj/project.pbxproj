@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD2094B8298CAE5B00F5133B /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2094B7298CAE5B00F5133B /* HTTPClient.swift */; };
 		CDC0F94D298A0993005590D4 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC0F944298A0993005590D4 /* EssentialFeed.framework */; };
 		CDC0F953298A0993005590D4 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC0F947298A0993005590D4 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC0F95D298A0A72005590D4 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0F95C298A0A72005590D4 /* FeedItem.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD2094B7298CAE5B00F5133B /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		CDC0F944298A0993005590D4 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC0F947298A0993005590D4 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		CDC0F94C298A0993005590D4 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC0F964298A4101005590D4 /* RemoteFeedLoader.swift */,
+				CD2094B7298CAE5B00F5133B /* HTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				CDC0F95F298A0C00005590D4 /* FeedLoader.swift in Sources */,
 				CDC0F965298A4101005590D4 /* RemoteFeedLoader.swift in Sources */,
+				CD2094B8298CAE5B00F5133B /* HTTPClient.swift in Sources */,
 				CDC0F95D298A0A72005590D4 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
