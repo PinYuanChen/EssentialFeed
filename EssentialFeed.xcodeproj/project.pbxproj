@@ -24,6 +24,7 @@
 		CDC0F965298A4101005590D4 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0F964298A4101005590D4 /* RemoteFeedLoader.swift */; };
 		CDC6C99F299CB854009EAF36 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C99E299CB854009EAF36 /* LocalFeedLoader.swift */; };
 		CDC6C9A1299CB9BD009EAF36 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C9A0299CB9BD009EAF36 /* FeedStore.swift */; };
+		CDC6C9A3299CBF86009EAF36 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C9A2299CBF86009EAF36 /* RemoteFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CDC0F964298A4101005590D4 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		CDC6C99E299CB854009EAF36 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		CDC6C9A0299CB9BD009EAF36 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		CDC6C9A2299CBF86009EAF36 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				CDC0F964298A4101005590D4 /* RemoteFeedLoader.swift */,
 				CD2094B9298CAED400F5133B /* FeedItemsMapper.swift */,
+				CDC6C9A2299CBF86009EAF36 /* RemoteFeedItem.swift */,
 				CD2094B7298CAE5B00F5133B /* HTTPClient.swift */,
 				9B7A1BDB299245DB0067E290 /* URLSessionHTTPClient.swift */,
 			);
@@ -343,6 +346,7 @@
 			files = (
 				CD2094BA298CAED400F5133B /* FeedItemsMapper.swift in Sources */,
 				CDC0F95F298A0C00005590D4 /* FeedLoader.swift in Sources */,
+				CDC6C9A3299CBF86009EAF36 /* RemoteFeedItem.swift in Sources */,
 				CDC0F965298A4101005590D4 /* RemoteFeedLoader.swift in Sources */,
 				CDC6C9A1299CB9BD009EAF36 /* FeedStore.swift in Sources */,
 				CDC6C99F299CB854009EAF36 /* LocalFeedLoader.swift in Sources */,
