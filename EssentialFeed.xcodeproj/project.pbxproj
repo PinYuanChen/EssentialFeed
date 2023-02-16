@@ -27,6 +27,7 @@
 		CDC6C9A3299CBF86009EAF36 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C9A2299CBF86009EAF36 /* RemoteFeedItem.swift */; };
 		CDC6C9A5299CBFD9009EAF36 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C9A4299CBFD9009EAF36 /* LocalFeedImage.swift */; };
 		CDC6C9A7299CC5D9009EAF36 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C9A6299CC5D9009EAF36 /* LoadFeedFromCacheUseCaseTests.swift */; };
+		CDC6C9A9299DCD31009EAF36 /* FeedStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C9A8299DCD31009EAF36 /* FeedStoreSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		CDC6C9A2299CBF86009EAF36 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		CDC6C9A4299CBFD9009EAF36 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
 		CDC6C9A6299CC5D9009EAF36 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
+		CDC6C9A8299DCD31009EAF36 /* FeedStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				9B7A1BD9299231010067E290 /* XCTestCase+MemoryLeakTracking.swift */,
+				CDC6C9A8299DCD31009EAF36 /* FeedStoreSpy.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			files = (
 				CDC0F962298A3183005590D4 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				9B7A1BB72990D8AA0067E290 /* URLSessionHTTPClientTests.swift in Sources */,
+				CDC6C9A9299DCD31009EAF36 /* FeedStoreSpy.swift in Sources */,
 				9B4AEF362998E74D001C49F1 /* CacheFeedUseCaseTests.swift in Sources */,
 				CDC6C9A7299CC5D9009EAF36 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 				9B7A1BDA299231010067E290 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
