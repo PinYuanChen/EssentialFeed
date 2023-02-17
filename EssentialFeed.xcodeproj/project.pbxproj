@@ -32,6 +32,7 @@
 		CDDF9B39299E17A500E04121 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF9B38299E17A500E04121 /* FeedCacheTestHelpers.swift */; };
 		CDDF9B3B299E17DF00E04121 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF9B3A299E17DF00E04121 /* SharedTestHelpers.swift */; };
 		CDDF9B3D299E2C0600E04121 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF9B3C299E2C0600E04121 /* FeedCachePolicy.swift */; };
+		CDDF9B3F299F62F100E04121 /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF9B3E299F62F100E04121 /* CodableFeedStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		CDDF9B38299E17A500E04121 /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		CDDF9B3A299E17DF00E04121 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		CDDF9B3C299E2C0600E04121 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
+		CDDF9B3E299F62F100E04121 /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				9B4AEF352998E74D001C49F1 /* CacheFeedUseCaseTests.swift */,
 				CDC6C9A6299CC5D9009EAF36 /* LoadFeedFromCacheUseCaseTests.swift */,
 				CDDF9B35299E122400E04121 /* ValidateFeedCacheUseCaseTests.swift */,
+				CDDF9B3E299F62F100E04121 /* CodableFeedStoreTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDF9B3F299F62F100E04121 /* CodableFeedStoreTests.swift in Sources */,
 				CDDF9B39299E17A500E04121 /* FeedCacheTestHelpers.swift in Sources */,
 				CDDF9B36299E122400E04121 /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				CDC0F962298A3183005590D4 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
