@@ -21,7 +21,7 @@ class EssentialFeedCacheIntegrationTests: XCTestCase {
     
     func test_load_deliversNoItemsOnEmptyCache() {
         let sut = makeSUT()
-
+        
         let exp = expectation(description: "Wait for load completion")
         sut.load { result in
             switch result {
@@ -35,6 +35,33 @@ class EssentialFeedCacheIntegrationTests: XCTestCase {
             exp.fulfill()
         }
         wait(for: [exp], timeout: 1.0)
+    }
+    
+    func test_load_deliversItemsSavedOnASeparateInstance() {
+        let sutToPerformSave = makeSUT()
+        let sutToPerformLoad = makeSUT()
+        let feed = uniqueImageFeed().models
+        
+        let saveExp = expectation(description: "Wait for save completion")
+        sutToPerformSave.save(feed) { saveError in
+            XCTAssertNil(saveError, "Expected to save feed successfully")
+            saveExp.fulfill()
+        }
+        wait(for: [saveExp], timeout: 1.0)
+        
+        let loadExp = expectation(description: "Wait for load completion")
+        sutToPerformLoad.load { loadResult in
+            switch loadResult {
+            case let .success(imageFeed):
+                XCTAssertEqual(imageFeed, feed)
+                
+            case let .failure(error):
+                XCTFail("Expected successful feed result, got \(error) instead")
+            }
+            
+            loadExp.fulfill()
+        }
+        wait(for: [loadExp], timeout: 1.0)
     }
     
     // MARK: Helpers
@@ -68,5 +95,5 @@ class EssentialFeedCacheIntegrationTests: XCTestCase {
     private func cachesDirectory() -> URL {
         return FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first!
     }
-
+    
 }
